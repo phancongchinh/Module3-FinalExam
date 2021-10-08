@@ -3,6 +3,7 @@ package com.codegym.dao;
 import java.util.List;
 
 public interface IGeneralDAO<T> {
+
     List<T> getAll();
 
     boolean save (T t);
